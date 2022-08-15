@@ -1,0 +1,38 @@
+import {MD3LightTheme} from 'react-native-paper';
+import LightColors from './LightColors';
+
+export const LightTheme = {
+  ...MD3LightTheme,
+  colors: {
+    ...MD3LightTheme.colors,
+    primary: LightColors.primary,
+    primaryContainer: LightColors.primaryContainer,
+    secondary: LightColors.secondary,
+    secondaryContainer: LightColors.secondaryContainer,
+    tertiary: LightColors.tertiary,
+    tertiaryContainer: LightColors.tertiaryContainer,
+    surface: LightColors.surface,
+    surfaceVariant: LightColors.surfaceVariant,
+    // surfaceDisabled: LightColors.ghostWhite,
+    background: LightColors.background,
+    error: LightColors.error,
+    errorContainer: LightColors.errorContainer,
+    onPrimary: LightColors.onPrimary,
+    onPrimaryContainer: LightColors.onPrimaryContainer,
+    onSecondary: LightColors.onSecondary,
+    onSecondaryContainer: LightColors.onSecondaryContainer,
+    onTertiary: LightColors.onTertiary,
+    onTertiaryContainer: LightColors.onTertiaryContainer,
+    onSurface: LightColors.onSurface,
+    onSurfaceVariant: LightColors.onSurfaceVariant,
+    // onSurfaceDisabled: LightColors.inverseSurface,
+    onError: LightColors.onError,
+    onErrorContainer: LightColors.onErrorContainer,
+    onBackground: LightColors.onBackground,
+    outline: LightColors.outline,
+    inverseSurface: LightColors.inverseSurface,
+    inverseOnSurface: LightColors.onInverseSurface,
+    inversePrimary: LightColors.inversePrimary,
+    backdrop: LightColors.ghostWhite,
+  },
+};
